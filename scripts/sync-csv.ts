@@ -1,4 +1,4 @@
-import db from "../src/db";
+import db from "../src/db/db";
 import { normalizeEvent } from "../src/normalizeEvent";
 import { parse } from "csv-parse/sync";
 import { v4 as uuidv4 } from "uuid";

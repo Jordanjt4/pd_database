@@ -1,4 +1,4 @@
-import db from "../db";
+import db from "./db";
 import { EventRow } from "@/types";
 
 export const getEvents = () => {

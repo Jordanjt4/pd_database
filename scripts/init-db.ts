@@ -1,4 +1,4 @@
-import db from "../src/db";
+import db from "../src/db/db";
 
 db.exec(`
 CREATE TABLE IF NOT EXISTS locations (
